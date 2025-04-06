@@ -758,12 +758,14 @@ button.submit-btn:hover {
 }
 
 .fiverr-seller-widget {
-    max-width: 100%;
-    border-radius: 10px;
+    display: inline-block;
     padding: 20px;
     background: #fff;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px; /* Adjust this value as necessary */
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .fiverr-seller-widget a {
@@ -771,10 +773,7 @@ button.submit-btn:hover {
     color: inherit;
 }
 
-.fiverr-seller-widget .fiverr-seller-content {
-    display: none;
-}
-
+.fiverr-seller-widget .fiverr-seller-content,
 .fiverr-seller-widget .fiverr-widget-seller-data {
     display: none;
 }

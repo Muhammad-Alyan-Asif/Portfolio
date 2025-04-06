@@ -739,3 +739,73 @@ button.submit-btn:hover {
     padding: 30px 20px;
   }
 }
+
+/* Fiverr Widget Styling */
+#fiverr-widget {
+  padding: 20px;
+  text-align: center;
+}
+
+.fiverr-widget-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fiverr-seller-widget {
+  display: inline-block;
+  background-color: #2c2f37;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.fiverr-seller-widget a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fiverr-seller-widget h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.fiverr-seller-widget p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .fiverr-seller-widget {
+    padding: 15px;
+  }
+
+  .fiverr-seller-widget h2 {
+    font-size: 22px;
+  }
+
+  .fiverr-seller-widget p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fiverr-seller-widget {
+    padding: 10px;
+  }
+
+  .fiverr-seller-widget h2 {
+    font-size: 20px;
+  }
+
+  .fiverr-seller-widget p {
+    font-size: 12px;
+  }
+}

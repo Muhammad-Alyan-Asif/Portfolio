@@ -739,3 +739,42 @@ button.submit-btn:hover {
     padding: 30px 20px;
   }
 }
+
+
+/* Fiverr Card Styling */
+.fiverr-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 30px 0;
+    text-align: center;
+}
+
+.fiverr-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.fiverr-seller-widget {
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fiverr-seller-widget a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fiverr-seller-widget .fiverr-seller-content {
+    display: none;
+}
+
+.fiverr-seller-widget .fiverr-widget-seller-data {
+    display: none;
+}

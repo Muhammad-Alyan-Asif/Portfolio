@@ -1,124 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imtinan Asif – Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Imtinan Asif</h1>
+      <p>Creative Graphic Designer</p>
+    </header>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imtinan Asif - Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #0f0f0f;
-      color: #ffffff;
-    }
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate graphic designer with over 3 years of experience turning ideas into stunning visuals. My mission is to bring creativity and clarity to every design I create.
+      </p>
+    </section>
 
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Logo Design</li>
+        <li>Brand Identity</li>
+        <li>Business Cards</li>
+        <li>Social Media Graphics</li>
+        <li>Flyers & Brochures</li>
+      </ul>
+    </section>
 
-    h1, h2 {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .fiverr-section {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(10px);
-      border-radius: 20px;
-      margin: 80px auto;
-      padding: 60px 20px;
-      max-width: 1000px;
-      text-align: center;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-    }
-
-    .fiverr-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    .fiverr-seller-widget iframe {
-      border-radius: 12px !important;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    @media (max-width: 768px) {
-      .fiverr-section {
-        padding: 40px 10px;
-        margin: 60px 10px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <section id="hero" data-aos="fade-down">
-    <h1>Welcome to My Portfolio</h1>
-    <p style="text-align:center">I’m Imtinan Asif, a passionate Graphic Designer</p>
-  </section>
-
-  <section id="skills" data-aos="fade-up">
-    <h2>Skills</h2>
-    <ul>
-      <li>Logo Design</li>
-      <li>Brand Identity</li>
-      <li>Social Media Graphics</li>
-      <li>Brochures & Flyers</li>
-    </ul>
-  </section>
-
-  <!-- Fiverr Badge Section -->
-  <section id="fiverr-badge" class="fiverr-section" data-aos="fade-up" data-aos-duration="1000">
-    <div class="fiverr-container">
-      <!-- Fiverr Widget -->
+    <!-- Fiverr Badge Embedded between Skills and Projects -->
+    <section class="fiverr-badge">
       <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget'>
-        <a itemprop='url' href="https://www.fiverr.com/imtinanasif741" rel="nofollow" target="_blank">
+        <a itemprop='url' href='https://www.fiverr.com/imtinanasif741' rel="nofollow" target="_blank">
           <div class='fiverr-seller-content' id='fiverr-seller-widget-content-83088cc5-cc6a-459b-b7a8-85b4ae68b93d' itemprop='contentURL'></div>
-          <div id='fiverr-widget-seller-data' style='display: none;'>
+          <div id='fiverr-widget-seller-data'>
             <div itemprop='name'>imtinanasif741</div>
             <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
             <div itemprop='jobtitle'>Seller</div>
             <div itemprop='description'>
-              Welcome to Imtinan Asif's Creative Hub!<br><br>
-              We are a passionate and experienced team of graphic designers with 3 years of combined expertise in crafting visually stunning and effective designs. Our goal is to bring your creative ideas to life and help your business stand out in a competitive market.<br><br>
-              We specialize in a wide range of graphic design services, including:<br>
-              Logo Design, Branding & Identity, Business Cards & Stationery,<br>
-              Social Media Graphics, Flyers & Brochures, and much more!
+              Welcome to Imtinan Asif's Creative Hub! We are a passionate and experienced team of graphic designers with 3 years of combined expertise in crafting visually stunning and effective designs.
             </div>
           </div>
         </a>
       </div>
-    </div>
+      <script id='fiverr-seller-widget-script-83088cc5-cc6a-459b-b7a8-85b4ae68b93d' src='https://widgets.fiverr.com/api/v1/seller/imtinanasif741?widget_id=83088cc5-cc6a-459b-b7a8-85b4ae68b93d' data-config='{"category_name":"Graphics & Design"}' async defer></script>
+    </section>
 
-    <!-- Fiverr Widget Script -->
-    <script id='fiverr-seller-widget-script-83088cc5-cc6a-459b-b7a8-85b4ae68b93d'
-      src='https://widgets.fiverr.com/api/v1/seller/imtinanasif741?widget_id=83088cc5-cc6a-459b-b7a8-85b4ae68b93d'
-      data-config='{"category_name":"Graphics \u0026 Design"}'
-      async defer>
-    </script>
-  </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Brand Identity for Café</h3>
+          <p>Complete branding package including logo, menus, signage, and social media templates.</p>
+        </div>
+        <div class="project-card">
+          <h3>Logo for Tech Startup</h3>
+          <p>Minimalist and modern logo design for a cutting-edge software company.</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects" data-aos="fade-up">
-    <h2>Projects</h2>
-    <p style="text-align:center">Coming Soon...</p>
-  </section>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Let's bring your vision to life!</p>
+      <a href="mailto:imtinan.designs@gmail.com">imtinan.designs@gmail.com</a>
+    </section>
 
-  <section id="contact" data-aos="fade-up">
-    <h2>Contact Me</h2>
-    <p style="text-align:center">Email: imtinanasif741@gmail.com</p>
-  </section>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    <footer>
+      <p>&copy; 2025 Imtinan Asif. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
+
+<style>
+  .fiverr-badge {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  .fiverr-badge:hover {
+    transform: scale(1.02);
+  }
+  .fiverr-seller-widget {
+    max-width: 400px;
+    width: 100%;
+  }
+  .fiverr-seller-widget a {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
